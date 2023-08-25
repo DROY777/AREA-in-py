@@ -1,0 +1,11 @@
+print("Percentage calculator")
+a=int(input("enter your number of sub 1:"))
+b=int(input("enter your number of sub 2:"))
+c=int(input("enter your number of sub 3:"))
+d=int(input("enter your number of sub 4:"))
+e=int(input("enter your number of sub 5:"))
+f=int(input("enter total marks "))
+g=int(a+b+c+d+e)
+h= float(100*g/f)
+print("your percentage is:",h,"%")
+
